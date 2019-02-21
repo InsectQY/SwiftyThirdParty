@@ -5,14 +5,64 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.00957">
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.001528">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: pod_push" time="3.325197">
+      <testcase classname="fastlane.lanes" name="01: import_from_git" time="1.626203">
         
-          <failure message="/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:232:in `block in execute_action'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/fast_file.rb:154:in `method_missing'&#10;Fastfile:7:in `block (2 levels) in parsing_binding'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/commands_generator.rb:333:in `run'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/cli_tools_distributor.rb:113:in `take_off'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:22:in `load'&#10;/usr/local/bin/fastlane:22:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod repo push Specs 'OCThirdParty.podspec' --allow-warnings --use-libraries' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; OCThirdParty -&gt; OCThirdParty (0.1.0)&#10;    - WARN  | github_sources: Github repositories should end in `.git`.&#10;    - ERROR | [iOS] unknown: Encountered an unknown error ([!] /usr/bin/git clone https://github.com/yushengr/OCThirdParty /var/folders/g1/sbkshjzs4tb_mp53h48tj3g40000gn/T/d20190219-27221-3rt0rj --template= --single-branch --depth 1 --branch 0.1.0&#10;&#10;Cloning into '/var/folders/g1/sbkshjzs4tb_mp53h48tj3g40000gn/T/d20190219-27221-3rt0rj'...&#10;warning: Could not find remote branch 0.1.0 to clone.&#10;fatal: Remote branch 0.1.0 not found in upstream origin&#10;) during validation.&#10;&#10;[!] The `OCThirdParty.podspec` specification does not validate.&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="02: git_pull" time="2.084692">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="03: ensure_git_branch" time="0.015303">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="04: version_bump_podspec" time="0.004523">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="05: git_add" time="0.035721">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="06: git_commit" time="0.047012">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: push_to_git_remote" time="5.791094">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: git_tag_exists" time="0.020687">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.026269">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="7.417484">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: pod_push" time="7.790172">
+        
+          <failure message="/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:232:in `block in execute_action'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/fast_file.rb:154:in `method_missing'&#10;../../../../../var/folders/g1/sbkshjzs4tb_mp53h48tj3g40000gn/T/fl_clone20190221-25919-1tv3qof/fastlane/fastlane/Fastfile:29:in `block in parsing_binding'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Library/Ruby/Gems/2.3.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/commands_generator.rb:333:in `run'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/fastlane/lib/fastlane/cli_tools_distributor.rb:113:in `take_off'&#10;/Library/Ruby/Gems/2.3.0/gems/fastlane-2.116.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:22:in `load'&#10;/usr/local/bin/fastlane:22:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod repo push QYSpecs 'SwiftyThirdParty.podspec' --sources='https://github.com/InsectQY/QYSpecs,https://github.com/CocoaPods/Specs.git' --allow-warnings --use-libraries' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; SwiftyThirdParty -&gt; SwiftyThirdParty (0.1.0)&#10;    - WARN  | github_sources: Github repositories should end in `.git`.&#10;    - ERROR | [iOS] unknown: Encountered an unknown error (The following Swift pods cannot yet be integrated as static libraries:&#10;&#10;The Swift pod `KingfisherWebP` depends upon `libwebp`, which do not define modules. To opt into those targets generating module maps (which is necessary to import them from Swift when building as static libraries), you may set `use_modular_headers!` globally in your Podfile, or specify `:modular_headers =&gt; true` for particular dependencies.&#10;&#10;The Swift pod `SwiftyThirdParty` depends upon `MJRefresh` and `QMUIKit`, which do not define modules. To opt into those targets generating module maps (which is necessary to import them from Swift when building as static libraries), you may set `use_modular_headers!` globally in your Podfile, or specify `:modular_headers =&gt; true` for particular dependencies.) during validation.&#10;&#10;[!] The `SwiftyThirdParty.podspec` specification does not validate.&#10;" />
         
       </testcase>
     
