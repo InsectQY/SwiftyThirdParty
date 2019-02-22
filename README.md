@@ -33,9 +33,9 @@ pod 'SwiftyThirdParty/MJRefresh'
 
 - all
 
-  ```ruby
-  pod 'SwiftyThirdParty/Kingfisher'
-  ```
+```ruby
+pod 'SwiftyThirdParty/Kingfisher'
+```
 
 - Core
 
@@ -45,23 +45,23 @@ pod 'SwiftyThirdParty/Kingfisher/Core'
 
 - WebP
 
-- ```ruby
-  pod 'SwiftyThirdParty/Kingfisher/WebP'
-  ```
+```ruby
+pod 'SwiftyThirdParty/Kingfisher/WebP'
+```
 
-  ### QMUIKit
+### QMUIKit
 
-  - all
+- all
 
-    ```ruby
-    pod 'SwiftyThirdParty/QMUIKit'
-    ```
+```ruby
+pod 'SwiftyThirdParty/QMUIKit'
+```
 
-  - Toast
+- Toast
 
-    ```ruby
-    pod 'SwiftyThirdParty/QMUIKit/Toast'
-    ```
+```ruby
+pod 'SwiftyThirdParty/QMUIKit/Toast'
+```
 
     
 
