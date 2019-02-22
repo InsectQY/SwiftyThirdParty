@@ -8,7 +8,6 @@
 
 import Foundation
 import Kingfisher
-import KingfisherWebP
 
 public class KfOptions {
 
