@@ -15,11 +15,21 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
+### git_tag
+```
+fastlane git_tag
+```
+Release new pod version
 ### pod_repo_push
 ```
 fastlane pod_repo_push
 ```
-Release new pod version
+
+### pod_repo_push_use_libraries
+```
+fastlane pod_repo_push_use_libraries
+```
+
 
 ----
 

@@ -26,12 +26,16 @@ Pod::Spec.new do |s|
 
   s.subspec 'Kingfisher' do |ss|
     ss.dependency 'Kingfisher'
-    ss.source_files = 'SwiftyThirdParty/Kingfisher/Core/Classes/**'
+
+    ss.subspec 'Core' do |sss|
+      sss.dependency 'KingfisherWebP'
+      ss.source_files = 'SwiftyThirdParty/Kingfisher/Core/Classes/**'
+    end
 
     ss.subspec 'WebP' do |sss|
     	sss.dependency 'KingfisherWebP'
     	sss.source_files = 'SwiftyThirdParty/Kingfisher/WebP/Classes/**'
-      end
+    end
   end
 
   s.subspec 'QMUIKit' do |ss|
