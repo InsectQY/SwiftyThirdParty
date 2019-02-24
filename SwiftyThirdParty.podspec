@@ -26,7 +26,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Kingfisher' do |ss|
     ss.dependency 'Kingfisher'
-    ss.default_subspec = 'core'
     
     ss.subspec 'Core' do |sss|
       sss.source_files = 'SwiftyThirdParty/Kingfisher/Core/Classes/**'
