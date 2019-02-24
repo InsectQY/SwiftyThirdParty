@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
     ss.dependency 'Kingfisher'
 
     ss.subspec 'Core' do |sss|
-      sss.dependency 'KingfisherWebP'
       ss.source_files = 'SwiftyThirdParty/Kingfisher/Core/Classes/**'
     end
 
