@@ -1,0 +1,3 @@
+*.podspec linguist-language=Swift
+*.lock linguist-language=Swift
+*.xml linguist-language=Swift
