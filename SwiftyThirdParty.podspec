@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 
   	ss.subspec 'Toast' do |sss|
     	sss.source_files = 'SwiftyThirdParty/QMUIKit/Toast/Classes/**'
-      sss.dependency = 'QMUIKit/QMUITips'
+      sss.dependency = 'QMUIKit/QMUIComponents/QMUITips'
       end
   end
 
