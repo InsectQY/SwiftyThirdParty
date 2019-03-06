@@ -41,7 +41,6 @@ Pod::Spec.new do |s|
 
 	  ss.dependency 'QMUIKit/QMUIComponents/QMUITips'
     ss.source_files = 'SwiftyThirdParty/Toast/Classes/**'
-      end
   end
 
 end
