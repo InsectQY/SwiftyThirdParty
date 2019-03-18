@@ -28,4 +28,8 @@ public class KfOptions {
         let processor = CroppingImageProcessor(size: size, anchor: anchor)
         return KingfisherOptionsInfoItem.processor(processor)
     }
+
+    public static func fadeTransition(_ time: TimeInterval) -> KingfisherOptionsInfoItem {
+        return KingfisherOptionsInfoItem.transition(.fade(time))
+    }
 }
