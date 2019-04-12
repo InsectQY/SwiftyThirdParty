@@ -10,12 +10,12 @@ import MJRefresh
 
 extension UIScrollView {
 
-    public var refreshHeader: MJRefreshHeader {
+    public var refreshHeader: MJRefreshHeader? {
         get { return mj_header }
         set { mj_header = newValue }
     }
 
-    public var refreshFooter: MJRefreshFooter {
+    public var refreshFooter: MJRefreshFooter? {
         get { return mj_footer }
         set { mj_footer = newValue }
     }
