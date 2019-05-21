@@ -9,7 +9,7 @@
 import Foundation
 import Toast_Swift
 
-extension UIView {
+public extension UIView {
 
     func show(_ message: String?,
               duration: TimeInterval = ToastManager.shared.duration,
