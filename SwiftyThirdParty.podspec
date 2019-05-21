@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyThirdParty'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Swift ThirdParty'
   s.description      = 'This is Swift ThirdParty'
 
@@ -38,8 +38,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Toast' do |ss|
-
-	  ss.dependency 'QMUIKit/QMUIComponents/QMUITips'
+    ss.dependency 'Toast-Swift'
     ss.source_files = 'SwiftyThirdParty/Toast/Classes/**'
   end
 
