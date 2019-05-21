@@ -19,6 +19,10 @@ extension UIScrollView {
         get { return mj_footer }
         set { mj_footer = newValue }
     }
+
+    public var isTotalDataEmpty: Bool {
+        return mj_totalDataCount() == 0
+    }
 }
 
 public class RefreshHeader: MJRefreshGifHeader {
