@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyThirdParty'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Swift ThirdParty'
   s.description      = 'This is Swift ThirdParty'
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { 'InsectQY' => '704861917@qq.com' }
   s.source           = { :git => 'https://github.com/InsectQY/SwiftyThirdParty.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-  s.swift_version = "4.2"
+  s.swift_version = "5.0"
 
   s.subspec 'MJRefresh' do |ss|
     ss.dependency 'MJRefresh'
